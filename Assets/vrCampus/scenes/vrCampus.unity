@@ -35772,13 +35772,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 833218868}
-  - component: {fileID: 2012223549}
   - component: {fileID: 2012223548}
   - component: {fileID: 2012223547}
   - component: {fileID: 2012223546}
   - component: {fileID: 2012223545}
   - component: {fileID: 2012223550}
   - component: {fileID: 2012223551}
+  - component: {fileID: 2012223549}
   m_Layer: 0
   m_Name: StudentScriptHolder
   m_TagString: Untagged
@@ -35837,7 +35837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ad6a7ddf92b6d41a91f44ad043e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackingScreen: {fileID: 1932670218}
+  leftScreen: {fileID: 1932670218}
 --- !u!114 &2012223549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35847,10 +35847,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2012223544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c54b596f65c3974f98303ecfbf4a731, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e916db2e551a44c6b9ec46e34c5a8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   leftScreen: {fileID: 1932670218}
+  m_Camera: {fileID: 984134149}
+  m_RayLength: 10
+  m_Reticle: {fileID: 829888393}
 --- !u!114 &2012223550
 MonoBehaviour:
   m_ObjectHideFlags: 0
